@@ -1,0 +1,169 @@
+.login-body {
+    background-color: #0f0f0f;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-container {
+    background-color: black;
+    border: 1px solid white;
+    width: 130vh;
+    height: 60vh; 
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    display: inline;
+    /* padding: 3px 0 3px ; */
+}
+
+.backbox {
+    background-color: #4e4b4b;
+    width: 100%;
+    height: 65vh;
+    padding: 3px 0 3px ;
+    /* margin-top: 10vh; */
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    display: inline-flex;
+}
+
+.frontbox {
+    background-color: rgb(18, 18, 19);
+    border-radius: 20px;
+    height: 60vh;
+    width: 60vh;
+    /* z-index: 10; */
+    position: absolute;
+    right: 0;
+    /* margin-top: 30px; */
+    margin-right: 3%;
+    margin-left: 3%;
+    transition: right .8s ease-in-out;
+}
+
+ .moving {
+    right: 45%;
+}
+
+.loginMsg,
+.signupMsg {
+    width: 50%;
+    height: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+}  */
+
+.loginMsg .title,
+.signupMsg .title {
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.loginMsg p,
+.signupMsg p {
+    font-weight: 100;
+}
+
+.textcontent {
+    color: white;
+    margin-top: 65px;
+    margin-left: 12%;
+} 
+
+.loginMsg button,
+.signupMsg button {
+    background-color: #404040;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    box-sizing: content-box;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: 20px;
+}  
+
+/* front box content */
+ .login,
+.signup {
+    padding: 20px;
+    text-align: center;
+} 
+
+.login h2,
+.signup h2 {
+    color: #606b5f;
+    font-size: 22px;
+}
+
+.inputbox {
+    margin-top: 30px;
+}
+
+.login input,
+.signup input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 12px; 
+}
+
+.login button,
+.signup button {
+    background-color: #606b5f;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+} 
+
+/* Fade In & Out*/
+.login p {
+    cursor: pointer;
+    color: #404040;
+    font-size: 15px;
+} 
+
+.loginMsg,
+.signupMsg {
+    opacity: 1;
+    transition: opacity .8s ease-in-out;
+}
+
+.visibility {
+    opacity: 0;
+}
+
+.hide {
+    display: none;
+} 
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .login-container {
+        width: 60%;
+    }
+
+    .backbox {
+        height: 50vh;
+        width: auto;
+    }
+
+    .frontbox {
+        width: 80%;
+        translate: 0 10% -10%;
+    }
+}

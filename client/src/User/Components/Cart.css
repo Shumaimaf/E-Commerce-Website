@@ -1,0 +1,227 @@
+/* Form Styles */
+.area input[type="text"],
+select,
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+    border: 1px solid #111111;
+    background-color: #fff;
+    color: #959595;
+    /* width: 80vh; */
+    padding: 10px;
+    font-size: 12px;
+    /* margin: 7px 0 10px 0; */
+}
+
+.cart-body {
+    width: 100%;
+}
+
+.billing-body {
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #000;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #D6544E;
+    border: none;
+}
+
+.order .redbutton {
+    background-color: #D6544E;
+    padding: 13px 30px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.order .redbutton:hover {
+    background-color: #000;
+    border: none;
+}
+
+/* textarea {
+    height: 120px;
+} */
+
+textarea:hover,
+input:hover {
+    border: 1px solid #D6544E;
+    background-color: #fff;
+}
+
+textarea:active,
+input:active {
+    border: 1px solid #D6544E;
+    background-color: #f5f5f5;
+}
+
+textarea:focus,
+input:focus {
+    border: 1px solid #000;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* margin-bottom: 100px; */
+}
+
+/* Main CSS Starts Here */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #959595;
+}
+
+h1,
+h3,
+h4,
+h5 {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 20px 0;
+    color: #000;
+}
+
+h1 {
+    font-size: 72px;
+    color: #000;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 13px;
+    padding: 20px 0;
+}
+
+/* Heading Top Border Styles Start Here */
+h3 {
+    position: relative;
+}
+
+h3.topborder {
+    margin-top: 0px;
+    border-bottom: 1px solid #b9b6b6;
+}
+
+h3.topborder:before {
+    content: "";
+    display: block;
+    border-top: 1px solid black;
+    width: 100%;
+    /* height: 1px; */
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+h3.topborder span {
+    background: #fff;
+    padding: 0 10px 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Heading Top Border Styles End Here */
+
+
+header {
+    height: 250px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/03/13/09/21/laptop-7065641_1280.png');
+    background-size: contain;
+    text-align: center;
+    /* line-height: 210px; */
+}
+
+.order {
+    border: 12px solid #a8a6a6;
+    margin-top: 28px;
+    flex-direction: column;
+}
+
+.order div:not(.qty) {
+    padding: 5px 0;
+
+
+}
+
+.order a {
+    display: flex;
+    flex-direction: column;
+}
+
+.order p {
+    padding: 0;
+    /* line-height: 20px; */
+}
+
+.order h4,
+h5 {
+    padding: 0;
+}
+
+.order div:nth-child(6) {
+    border: none;
+}
+
+.padright {
+    padding-right: 40px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.alignright {
+    float: right;
+}
+
+.prod-description {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.qty {
+    font-weight: 900;
+    font-size: 13px;
+    color: #000;
+    /* padding-left: 4px; */
+}
+
+.smalltxt {
+    font-size: 9px;
+    vertical-align: middle;
+}
+
+.order .center {
+    /* line-height: 40px; */
+    color: #000;
+}
