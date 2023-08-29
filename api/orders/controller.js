@@ -80,8 +80,8 @@ const orderPlace = async (req, res) => {
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: process.env.NODEMAILER_EMAIL,
-                pass: process.env.NODEMAILER_PASSWORD
+                user: "shumaimaf@gmail.com",
+                pass: "ukyycgiksmxiozyn"
             }
         });
 
@@ -112,7 +112,7 @@ const orderPlace = async (req, res) => {
                             Image: `<img src="${item.thumbnail}" alt="${item.title}" style="max-width:100px"/>`
                         }))
                     },
-                    outro: `Your Order will be delivered at, please ensure to activate your contact number . Your Total Bill is ${totalBill}€. Your Order ID ${order._id}`
+                    outro: `Your Order will be delivered at ${customerAddress}, please ensure to activate your contact number . Your Total Bill is ${totalBill}€. Your Order ID ${order._id}`
                 }
             })
         });
