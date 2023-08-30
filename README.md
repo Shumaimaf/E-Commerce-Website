@@ -54,30 +54,6 @@
 
 </body>
 
-
-<head>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            text-align: left;
-            padding: 8px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-
 <body>
 
 <h2>API Endpoint Reference</h2>
@@ -123,30 +99,6 @@
 
 </body>
 
-
-<head>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            text-align: left;
-            padding: 8px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-
 <body>
 
 <h2>API Endpoint Reference</h2>
@@ -191,30 +143,6 @@
 </table>
 
 </body>
-
-
-<head>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            text-align: left;
-            padding: 8px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
 
 <body>
 
@@ -265,30 +193,6 @@
 </table>
 
 </body>
-
-
-<head>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            text-align: left;
-            padding: 8px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
 
 <body>
 
