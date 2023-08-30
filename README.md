@@ -36,6 +36,7 @@
 
 <h2>API Endpoint Reference</h2>
 
+<h3>1 .BRANDS</h3>
 <table>
     <tr>
         <th>HTTP Method</th>
@@ -77,73 +78,289 @@
 </body>
 
 
-<h3>1 .BRANDS</h3> 
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
 
-/api/get-all-brands
-<br>
-/api/addbrand
-<br>
-/api/brandbyid/:_id
-<br>
-/api/brandbyname/:BrandName
-<br>
-/api/update-brand
-<br>
-/api/delete-brand/:BrandName
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
 
-<h3>2 .PRODUCTS</h3>
+        th {
+            background-color: #f2f2f2;
+        }
 
-/api/create-product
-<br>
-/api/get-product-by-brand
-<br>
-/api/get-product-by-category
-<br>
-/api/update-product
-<br>
-/api/delete-product/:ProductName
-<br>
-/api/get-all-products
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
 
-<h3>3 .CATEGORIES</h3>
+<body>
 
-/api/getallcategories
-<br>
-/api/categoriesbyid/:_id
-<br>
-/api/categorybyname/:CategoryName
-<br>
-/api/create-category
-<br>
-/api/update-category
-<br>
-/api/delete-category/:CategoryName
+<h2>API Endpoint Reference</h2>
+
+<h3>2 .CATEGORIES</h3>
+<table>
+    <tr>
+        <th>HTTP Method</th>
+        <th>Endpoint</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/getallcategories</td>
+        <td>Get a list of all categories</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/categoriesbyid/:_id</td>
+        <td>Get category information by ID</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/categorybyname/:CategoryName</td>
+        <td>Get category information by name</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/create-category</td>
+        <td>Create a new category</td>
+    </tr>
+    <tr>
+        <td>PUT</td>
+        <td>/update-category/:_id</td>
+        <td>Update category information by ID</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>/delete-category/:_id</td>
+        <td>Delete a category by ID</td>
+    </tr>
+</table>
+
+</body>
+
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>API Endpoint Reference</h2>
+
+<h3>3 .PRODUCTS</h3>
+<table>
+    <tr>
+        <th>HTTP Method</th>
+        <th>Endpoint</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/create-product</td>
+        <td>Create a new product</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/get-product-by-brand</td>
+        <td>Get products by brand</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/get-product-by-category</td>
+        <td>Get products by category</td>
+    </tr>
+    <tr>
+        <td>PUT</td>
+        <td>/update-product/:_id</td>
+        <td>Update product information by ID</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>/delete-product/:_id</td>
+        <td>Delete a product by ID</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/getallproducts</td>
+        <td>Get a list of all products</td>
+    </tr>
+</table>
+
+</body>
+
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>API Endpoint Reference</h2>
 
 <h3>4 .USERS</h3>
+<table>
+    <tr>
+        <th>HTTP Method</th>
+        <th>Endpoint</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/login</td>
+        <td>User login</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/signup</td>
+        <td>User sign up</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/getallusers</td>
+        <td>Get a list of all users</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/userbyemail/:email</td>
+        <td>Get user information by email</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/user/:id</td>
+        <td>Get user information by ID</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>/delete-user/:_id</td>
+        <td>Delete a user by ID</td>
+    </tr>
+    <tr>
+        <td>PUT</td>
+        <td>/user/:id</td>
+        <td>Update user information by ID</td>
+    </tr>
+</table>
 
-/api/login
-<br>
-/api/signup
-<br>
-/api/getallusers
-<br>
-/api/userbyemail/:email
-<br>
-get  /api/user/:id
-<br>
-delete /api/user/:id
-<br>
-put /api/user/:id
+</body>
 
 
-<h3>1 .ORDERS</h3>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
 
-/api/send-mail
-<br>
-/api/place-order
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>API Endpoint Reference</h2>
+
+<h3>5 .ORDERS</h3>
+<table>
+    <tr>
+        <th>HTTP Method</th>
+        <th>Endpoint</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/create-order</td>
+        <td>Create an order and send a demo email</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/order-mail</td>
+        <td>Place an order and send an order confirmation email</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/getallorders</td>
+        <td>Get a list of all orders</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>/delete-order/:_id</td>
+        <td>Delete an order by ID</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/get-order/:_id</td>
+        <td>Get order information by ID</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/getorderitems/:_id</td>
+        <td>Get items of an order by ID</td>
+    </tr>
+</table>
+
+</body>
+
   
   
-<h2>🧐 Features</h2>
+<h2> Features</h2>
 
 Here're some of the project's best features:
 
