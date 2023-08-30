@@ -281,7 +281,6 @@ The Efficient POS MERN Stack Project represents a step forward in empowering bus
 
 - 📫 How to reach me **shumaimaf@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
