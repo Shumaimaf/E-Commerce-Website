@@ -4,33 +4,10 @@
 
 <h2> Live Link🔗 </h2>
 
-[https://gleaming-pocketbook-hare.cyclic.cloud/](https://gleaming-pocketbook-hare.cyclic.cloud/)
+[https://gleaming-pocketbook-hare.cyclic.cloud/](https://gleaming-pocketbook-hare.cyclic.cloud/)](https://creepy-rose-sweatpants.cyclic.app/)
 
 
-<h2>🧐API Endpoints</h2>
-
-<head>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            text-align: left;
-            padding: 8px;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
+<h1>API Endpoints</h1>
 
 <body>
 
