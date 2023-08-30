@@ -58,7 +58,7 @@ export default function AdminCategory() {
     };
 
     const recallData = (newCategory) => {
-        setBrands(newCategory);
+        setCategory(newCategory);
     };
 
     return (
