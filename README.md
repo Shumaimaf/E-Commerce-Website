@@ -9,6 +9,39 @@
 
 <h2>🧐API Endpoints</h2>
 
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Description</th>
+      <th>Method</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/users</td>
+      <td>Get a list of all users</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>/api/users/:id</td>
+      <td>Get user details by ID</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>/api/users/:id</td>
+      <td>Update user details by ID</td>
+      <td>PUT</td>
+    </tr>
+    <tr>
+      <td>/api/users/:id</td>
+      <td>Delete user by ID</td>
+      <td>DELETE</td>
+    </tr>
+  </tbody>
+</table>
+
+
 <h3>1 .BRANDS</h3> 
 
 /api/get-all-brands
