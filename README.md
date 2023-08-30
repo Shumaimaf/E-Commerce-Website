@@ -239,18 +239,6 @@
 
 </body>
 
-  
-  
-<h2> Features</h2>
-
-Here're some of the project's best features:
-
-*   User-Friendly Interface: The project boasts a modern and intuitive user interface built with React and Material UI ensuring a smooth and engaging user experience
-*   Real-Time Inventory Management: Businesses can keep track of their inventory in real-time receive low-stock alerts and make informed restocking decisions.
-*   Comprehensive Sales Tracking: Generate detailed sales reports and analytics to gain insights into customer behavior and product performance.
-*   Customer Profiling: Create and manage customer profiles enabling personalized marketing strategies and improved customer relationships.
-*   Secure Authentication: The project implements robust authentication mechanisms to safeguard sensitive business and customer data.
-
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the repository.</p>
