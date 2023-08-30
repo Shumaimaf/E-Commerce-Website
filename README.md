@@ -2,44 +2,79 @@
 
 <p id="description">Efficient POS MERN Stack Project In today's fast-paced business environment having an efficient and robust point-of-sale (POS) system is paramount for enhancing customer experiences optimizing operations and gaining valuable insights into business performance. The Efficient POS MERN Stack Project is a cutting-edge solution designed to empower businesses with a modern and feature-rich POS experience. By leveraging the MongoDB Express.js React and Node.js (MERN) stack this project provides a comprehensive toolset for managing sales inventory and customer interactions.</p>
 
-<h2> Demo Live Link🔗 </h2>
+<h2> Live Link🔗 </h2>
 
 [https://gleaming-pocketbook-hare.cyclic.cloud/](https://gleaming-pocketbook-hare.cyclic.cloud/)
 
 
 <h2>🧐API Endpoints</h2>
 
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>API Endpoint Reference</h2>
+
 <table>
-  <thead>
     <tr>
-      <th>Endpoint</th>
-      <th>Description</th>
-      <th>Method</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>/api/users</td>
-      <td>Get a list of all users</td>
-      <td>GET</td>
+        <th>HTTP Method</th>
+        <th>Endpoint</th>
+        <th>Description</th>
     </tr>
     <tr>
-      <td>/api/users/:id</td>
-      <td>Get user details by ID</td>
-      <td>GET</td>
+        <td>GET</td>
+        <td>/getallbrands</td>
+        <td>Get a list of all brands</td>
     </tr>
     <tr>
-      <td>/api/users/:id</td>
-      <td>Update user details by ID</td>
-      <td>PUT</td>
+        <td>POST</td>
+        <td>/addbrand</td>
+        <td>Add a new brand</td>
     </tr>
     <tr>
-      <td>/api/users/:id</td>
-      <td>Delete user by ID</td>
-      <td>DELETE</td>
+        <td>GET</td>
+        <td>/brandbyid/:_id</td>
+        <td>Get brand information by ID</td>
     </tr>
-  </tbody>
+    <tr>
+        <td>GET</td>
+        <td>/brandbyname/:BrandName</td>
+        <td>Get brand information by name</td>
+    </tr>
+    <tr>
+        <td>PUT</td>
+        <td>/update-brand/:_id</td>
+        <td>Update brand information by ID</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>/delete-brand/:_id</td>
+        <td>Delete a brand by ID</td>
+    </tr>
 </table>
+
+</body>
 
 
 <h3>1 .BRANDS</h3> 
